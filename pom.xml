@@ -102,6 +102,11 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-logging-sentry</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.redhat.cloud.common</groupId>
+      <artifactId>java</artifactId>
+      <version>0.1.2</version>
+    </dependency>
 
     <!-- Test dependencies -->
     <dependency>
@@ -261,5 +266,11 @@
 
   </profiles>
 
+  <repositories>
+    <repository>
+      <id>JBoss Public</id>
+      <url>https://repository.jboss.org/nexus/content/groups/public</url>
+    </repository>
+  </repositories>
 
 </project>
